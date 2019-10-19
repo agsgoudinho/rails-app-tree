@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   resources :items
-  root 'home#index'
+  root 'contacts#index'
 end
