@@ -11,6 +11,14 @@
    <td><%= @contact.birthday %></td>
  </tr>
 
+  <p>
+    <strong>Phones</strong>
+    <% @contact.phones.each do |phone| %>
+    <p>
+      <%= phone.number %>
+    </p>
+  <% end %>
+  </p>
 </table>
 
 <%= link_to t('edit'), edit_contact_path(@contact), class: 'btn btn-primary', role: :button %>
