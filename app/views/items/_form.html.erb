@@ -1,3 +1,4 @@
+<div class="form-group">
 <%= form_with(model: item, local: true) do |form| %>
   <% if item.errors.any? %>
     <div id="error_explanation">
@@ -13,7 +14,7 @@
 
   <div class="field">
     <%= form.label :description %>
-    <%= form.text_field :description %>
+    <%= form.text_field :description, class: 'form-control'%>
   </div>
 
   <div class="field">
@@ -22,6 +23,8 @@
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit :class => 'btn btn-primary' %>
+    <%= form.submit "clean", :type => 'reset', :class => 'btn btn-warning'%>
   </div>
 <% end %>
+</div>
