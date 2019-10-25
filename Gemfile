@@ -3,6 +3,9 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'jquery-rails'
 gem 'rails-i18n', '~> 5.1', '>= 5.1.3'
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+gem 'will_paginate-bootstrap', git: 'https://github.com/benitkibabu/will_paginate-bootstrap'
+gem 'will-paginate-i18n', '~> 0.1.15'
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }

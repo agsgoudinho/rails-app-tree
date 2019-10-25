@@ -14,7 +14,7 @@ class ContactsController < ApplicationController
 
   # GET /contacts/new
   def new
-    @contact = Contact.new
+    @contacts = Contact.paginate(page: params[:page], per_page: 1)
   end
 
   # GET /contacts/1/edit
