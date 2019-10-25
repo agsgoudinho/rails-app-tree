@@ -4,7 +4,7 @@ class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.json
   def index
-    @contacts = Contact.all
+    @contacts = Contact.paginate(page: params[:page], per_page: 1)
   end
 
   # GET /contacts/1
@@ -14,7 +14,7 @@ class ContactsController < ApplicationController
 
   # GET /contacts/new
   def new
-    @contacts = Contact.paginate(page: params[:page], per_page: 1)
+    @contact = Contact.new
   end
 
   # GET /contacts/1/edit

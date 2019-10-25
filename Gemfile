@@ -1,12 +1,3 @@
-gem 'mini_racer', '~> 0.2.6'
-gem 'bootstrap', '~> 4.3.1'
-gem 'simple_form', '~> 5.0', '>= 5.0.1'
-gem 'jquery-rails'
-gem 'rails-i18n', '~> 5.1', '>= 5.1.3'
-gem 'will_paginate', '~> 3.2', '>= 3.2.1'
-gem 'will_paginate-bootstrap', git: 'https://github.com/benitkibabu/will_paginate-bootstrap'
-gem 'will-paginate-i18n', '~> 0.1.15'
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -24,6 +15,15 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
+
+gem 'mini_racer', '~> 0.2.6'
+gem 'bootstrap', '~> 4.3.1'
+gem 'simple_form', '~> 5.0', '>= 5.0.1'
+gem 'jquery-rails'
+gem 'rails-i18n', '~> 5.1', '>= 5.1.3'
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+gem 'will_paginate-bootstrap', git: 'https://github.com/benitkibabu/will_paginate-bootstrap'
+gem 'will-paginate-i18n', '~> 0.1.15'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
