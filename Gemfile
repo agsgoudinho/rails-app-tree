@@ -27,6 +27,9 @@ gem 'will-paginate-i18n', '~> 0.1.15'
 
 gem 'carrierwave', '~> 2.0', '>= 2.0.2'
 gem 'carrierwave-i18n', '~> 0.2.0'
+gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'devise-i18n', '~> 1.8', '>= 1.8.2'
+gem 'devise-bootstrap-views', '~> 1.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
